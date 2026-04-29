@@ -1,0 +1,55 @@
+question,topic,difficulty
+Explain the difference between a stack and a queue with real-world examples.,Data Structures,easy
+What is a hash table? How does it handle collisions?,Data Structures,medium
+Explain the difference between a singly and doubly linked list.,Data Structures,easy
+What is a binary search tree? What are its properties?,Data Structures,easy
+Explain graph representations: adjacency matrix vs adjacency list. When to use each?,Data Structures,medium
+What is a heap data structure? How is a min-heap different from a max-heap?,Data Structures,medium
+Explain the difference between BFS and DFS. Give one use case for each.,Algorithms,easy
+"What is dynamic programming? Explain with an example (e.g., Fibonacci or knapsack).",Algorithms,medium
+What is the time and space complexity of merge sort? Explain the algorithm.,Algorithms,medium
+Explain the concept of greedy algorithms. Give one example where greedy fails.,Algorithms,medium
+What is recursion? Explain tail recursion and its advantage.,Algorithms,easy
+Explain Dijkstra's algorithm and its time complexity.,Algorithms,hard
+"Explain the four pillars of OOP: encapsulation, inheritance, polymorphism, abstraction.",OOP,easy
+What is the difference between an abstract class and an interface in Java/Python?,OOP,medium
+What is method overloading vs method overriding?,OOP,easy
+Explain the SOLID principles. Give an example for Single Responsibility.,OOP,hard
+What is a design pattern? Explain the Singleton and Factory patterns.,OOP,hard
+"What is normalization? Explain 1NF, 2NF, and 3NF with examples.",Databases / SQL,medium
+What is the difference between a primary key and a foreign key?,Databases / SQL,easy
+Write a SQL query to find the second-highest salary from an Employees table.,Databases / SQL,medium
+What is a database index? How does it improve query performance?,Databases / SQL,medium
+Explain ACID properties in a database transaction.,Databases / SQL,medium
+What is the difference between SQL and NoSQL databases? When would you use each?,Databases / SQL,medium
+Explain the TCP three-way handshake.,Computer Networks,easy
+What is the difference between TCP and UDP? When would you use UDP?,Computer Networks,easy
+What is DNS and how does it work?,Computer Networks,easy
+Explain the OSI model layers and their functions.,Computer Networks,medium
+What is HTTPS? How does SSL/TLS encryption work at a high level?,Computer Networks,medium
+What is the difference between a process and a thread?,Operating Systems,easy
+Explain deadlock. What are the four Coffman conditions?,Operating Systems,medium
+What is virtual memory and how does paging work?,Operating Systems,medium
+What is a semaphore? How is it used for process synchronization?,Operating Systems,medium
+Explain the difference between preemptive and non-preemptive scheduling.,Operating Systems,medium
+How would you design a URL shortener like bit.ly at a high level?,System Design,hard
+What is a RESTful API? Explain its constraints and HTTP methods.,Web Development,easy
+What is caching? Where and why would you add a cache in a web app?,System Design,medium
+Explain the difference between horizontal and vertical scaling.,System Design,medium
+What is a load balancer? Describe two common load balancing strategies.,System Design,medium
+What is a microservices architecture? How does it differ from a monolith?,System Design,hard
+What are Python decorators? Write a simple logging decorator.,Python,medium
+Explain the difference between a list and a tuple in Python.,Python,easy
+What is a Python generator? How is it different from a regular function?,Python,medium
+Explain shallow copy vs deep copy in Python.,Python,medium
+What is the GIL (Global Interpreter Lock) in Python and how does it affect multithreading?,Python,hard
+What is Docker? How is a container different from a virtual machine?,Cloud / DevOps,easy
+Explain the concept of CI/CD. What tools are commonly used?,Cloud / DevOps,easy
+What is Kubernetes and what problem does it solve?,Cloud / DevOps,medium
+"Explain the differences between IaaS, PaaS, and SaaS.",Cloud / DevOps,easy
+What is infrastructure as code (IaC)? Name two tools used for it.,Cloud / DevOps,medium
+What is the difference between supervised and unsupervised learning?,Machine Learning,easy
+Explain overfitting. How do you prevent it?,Machine Learning,medium
+"What is gradient descent? Explain the difference between batch, SGD, and mini-batch.",Machine Learning,medium
+"What is a confusion matrix? Explain precision, recall, and F1 score.",Machine Learning,medium
+What is the bias-variance tradeoff?,Machine Learning,hard

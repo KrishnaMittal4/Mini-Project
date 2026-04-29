@@ -1,0 +1,341 @@
+{
+  "Amazon": {
+    "display_name": "Amazon",
+    "emoji": "📦",
+    "preferred_question_types": ["Behavioural", "Leadership", "Technical"],
+    "rubric_focus": ["Leadership Principles", "Customer obsession", "Ownership", "Bias for action", "Dive deep"],
+    "known_frameworks": ["STAR method", "Amazon Leadership Principles (16 LPs)", "Working backwards from customer", "Bar Raiser process"],
+    "question_patterns": [
+      "Tell me about a time you had to make a difficult decision with incomplete data.",
+      "Describe a situation where you disagreed with your manager — what did you do?",
+      "Give an example of when you went above and beyond for a customer.",
+      "Tell me about a time you failed. What did you learn?",
+      "Describe the most complex technical problem you've solved."
+    ],
+    "culture_notes": "Expect heavy LP-based behavioural questions. Every answer must map to at least one of Amazon's 16 Leadership Principles. Have 6-8 STAR stories ready that can flex to any LP.",
+    "avoid_topics": ["Generic teamwork stories with no personal ownership", "Answers that credit the team without 'I'"]
+  },
+
+  "Google": {
+    "display_name": "Google",
+    "emoji": "🔍",
+    "preferred_question_types": ["Technical", "Behavioural", "System Design"],
+    "rubric_focus": ["Googleyness", "General cognitive ability", "Role-related knowledge", "Leadership"],
+    "known_frameworks": ["Structured Hiring", "Googleyness and Leadership", "Code quality and clarity", "Large-scale system design"],
+    "question_patterns": [
+      "Design a URL shortening service that handles 1 billion requests/day.",
+      "Describe a time you had to influence without authority.",
+      "Walk me through how you'd improve Google Maps' ETA accuracy.",
+      "Tell me about a time you handled ambiguity in a project.",
+      "How would you design YouTube's recommendation engine?"
+    ],
+    "culture_notes": "Google assesses four dimensions: GCA, leadership, role knowledge, and Googleyness (comfort with ambiguity, collaboration, intellectual humility). System design rounds are critical for L4+.",
+    "avoid_topics": ["Overconfident answers claiming sole credit", "Rigid thinking in system design"]
+  },
+
+  "Meta": {
+    "display_name": "Meta",
+    "emoji": "👥",
+    "preferred_question_types": ["Behavioural", "Technical", "System Design"],
+    "rubric_focus": ["Move fast", "Impact", "Social impact mindset", "Data-driven decisions", "Collaboration"],
+    "known_frameworks": ["Impact-first behavioural stories", "Facebook's core values", "Data-informed product thinking", "Bootcamp engineering culture"],
+    "question_patterns": [
+      "Tell me about the most impactful project you've worked on.",
+      "How do you decide what to work on when everything feels urgent?",
+      "Design Facebook's News Feed ranking system.",
+      "Describe a time you had to make a trade-off between speed and quality.",
+      "Walk me through a time you used data to change a product direction."
+    ],
+    "culture_notes": "Meta is impact-obsessed. Every story should quantify impact. They look for people who move fast with high agency. Behavioural prep should emphasise personal impact, cross-functional work, and shipping velocity.",
+    "avoid_topics": ["Vague process stories with no measurable outcomes", "Slow-moving consensus-focused anecdotes"]
+  },
+
+  "Microsoft": {
+    "display_name": "Microsoft",
+    "emoji": "🪟",
+    "preferred_question_types": ["Behavioural", "Technical", "Design"],
+    "rubric_focus": ["Growth mindset", "Customer empathy", "Diverse and inclusive", "One Microsoft", "Clarity and energy"],
+    "known_frameworks": ["Satya Nadella's Growth Mindset", "STAR method", "Azure and cloud architecture", "Microsoft values (5 attributes)"],
+    "question_patterns": [
+      "Tell me about a time you had to learn something completely new under pressure.",
+      "How do you handle feedback that challenges your core assumptions?",
+      "Describe a situation where you made a product more accessible or inclusive.",
+      "Walk me through designing an Azure service at global scale.",
+      "Tell me about a time you helped a struggling teammate."
+    ],
+    "culture_notes": "Microsoft deeply values growth mindset — show how you learn from failure, seek feedback, and evolve. Culture interviews probe empathy and inclusion. Technical rounds often involve Azure cloud scenarios.",
+    "avoid_topics": ["Fixed mindset answers ('I already knew this')", "Individual glory without team collaboration"]
+  },
+
+  "Apple": {
+    "display_name": "Apple",
+    "emoji": "🍎",
+    "preferred_question_types": ["Technical", "Design", "Behavioural"],
+    "rubric_focus": ["Attention to detail", "Excellence over speed", "Secrecy and ownership", "User experience obsession", "Craftsmanship"],
+    "known_frameworks": ["Human Interface Guidelines", "Think Different philosophy", "Vertical integration thinking", "Deep ownership culture"],
+    "question_patterns": [
+      "Walk me through a project where you had to obsess over quality despite time pressure.",
+      "Tell me about the hardest technical problem you've ever debugged.",
+      "How do you approach designing for billions of users with diverse needs?",
+      "Describe a time you pushed back on requirements you thought were wrong.",
+      "What's the last product you used where you noticed an exceptional detail in the UX?"
+    ],
+    "culture_notes": "Apple expects extreme ownership and quality obsession. Interviews are often deep technical dives. They probe intuition for user experience and product craft. Secrecy means candidates rarely get feedback.",
+    "avoid_topics": ["Shipping fast at the cost of quality", "Generic high-level answers lacking technical depth"]
+  },
+
+  "Netflix": {
+    "display_name": "Netflix",
+    "emoji": "🎬",
+    "preferred_question_types": ["Behavioural", "Technical", "Leadership"],
+    "rubric_focus": ["Dream Team culture", "Freedom and responsibility", "Context not control", "Highly aligned loosely coupled", "Candor"],
+    "known_frameworks": ["Netflix Culture Memo (Keeper Test)", "Radical candor", "Informed Captain model", "Chaos Engineering mindset"],
+    "question_patterns": [
+      "Tell me about a time you gave or received brutally honest feedback.",
+      "Describe a decision you made with full ownership and no manager approval.",
+      "How would you design Netflix's content recommendation system?",
+      "Tell me about a time you set a context for a team rather than prescribing a solution.",
+      "Walk me through your approach to handling a critical production incident."
+    ],
+    "culture_notes": "Netflix hires 'stunning colleagues' — high performers who thrive with autonomy. The Keeper Test question ('Would your manager fight to keep you?') is implicit. They prize candor, self-sufficiency, and mature judgment.",
+    "avoid_topics": ["Needing lots of hand-holding", "Consensus-seeking without a clear owner"]
+  },
+
+  "Stripe": {
+    "display_name": "Stripe",
+    "emoji": "💳",
+    "preferred_question_types": ["Technical", "Behavioural", "System Design"],
+    "rubric_focus": ["Curiosity", "User empathy for developers", "Payment systems depth", "Written communication", "Strong opinions loosely held"],
+    "known_frameworks": ["Stripe operating principles", "API design excellence", "Developer-first thinking", "Financial system reliability"],
+    "question_patterns": [
+      "How would you design a payments API that handles idempotency at scale?",
+      "Tell me about a time you simplified a complex system for end users.",
+      "Walk me through your understanding of distributed transaction consistency.",
+      "Describe how you'd approach rate limiting in a multi-tenant API.",
+      "Tell me about a technical decision you made that you later changed your mind on."
+    ],
+    "culture_notes": "Stripe is intensely intellectual and writing-heavy. They value curiosity and the ability to engage seriously with complex problems. API design sensibility is paramount. Written take-homes are common.",
+    "avoid_topics": ["Surface-level API knowledge", "Answers that skip edge cases"]
+  },
+
+  "Uber": {
+    "display_name": "Uber",
+    "emoji": "🚗",
+    "preferred_question_types": ["Technical", "System Design", "Behavioural"],
+    "rubric_focus": ["Go for greatness", "Customer obsession", "Meritocracy", "Maps and geospatial thinking", "Real-time systems"],
+    "known_frameworks": ["Uber's cultural norms", "Real-time matching algorithms", "Geospatial system design", "Marketplace dynamics"],
+    "question_patterns": [
+      "How would you design Uber's surge pricing system?",
+      "Walk me through matching riders and drivers at 10M concurrent users.",
+      "Tell me about a time you delivered a project with extremely tight deadlines.",
+      "How would you detect and prevent fraudulent rides in real time?",
+      "Describe a time you had to influence product direction without direct authority."
+    ],
+    "culture_notes": "Uber interviews heavily test real-time system design and marketplace thinking. Technical rounds often use ride-sharing scenarios. They look for scrappy, high-agency individuals who move fast.",
+    "avoid_topics": ["Slow consensus building", "Theoretical answers without operational pragmatism"]
+  },
+
+  "Airbnb": {
+    "display_name": "Airbnb",
+    "emoji": "🏠",
+    "preferred_question_types": ["Behavioural", "Design", "Technical"],
+    "rubric_focus": ["Belong Anywhere mission", "Host and guest empathy", "Trust and safety", "Community thinking", "Belonging"],
+    "known_frameworks": ["Airbnb core values (6Cs)", "Design for trust", "Community-driven product thinking", "Dual-sided marketplace"],
+    "question_patterns": [
+      "Tell me about a time you built something that created real community or belonging.",
+      "How would you redesign Airbnb's review system to build more host-guest trust?",
+      "Describe a time you navigated a complex trust or safety tradeoff.",
+      "Walk me through designing search ranking for a two-sided marketplace.",
+      "Tell me about a time your product thinking was challenged by user research."
+    ],
+    "culture_notes": "Airbnb's mission ('Belong Anywhere') permeates every interview. They look for genuine empathy for both hosts and guests. The 'core values' interview is a significant filter — prepare stories aligning with community, belonging, and trust.",
+    "avoid_topics": ["Pure optimisation answers ignoring human trust", "Answers with no community or empathy angle"]
+  },
+
+  "Twitter / X": {
+    "display_name": "Twitter / X",
+    "emoji": "🐦",
+    "preferred_question_types": ["Technical", "System Design", "Behavioural"],
+    "rubric_focus": ["Real-time systems", "Scale", "Free speech and content moderation tradeoffs", "Feed architecture", "High throughput"],
+    "known_frameworks": ["Timeline fanout architecture", "Real-time event streaming", "Content moderation at scale", "Distributed caching"],
+    "question_patterns": [
+      "Design Twitter's home timeline at 500M users.",
+      "How would you approach content moderation decisions at scale?",
+      "Walk me through the fanout-on-read vs fanout-on-write tradeoff for feeds.",
+      "How would you detect trending topics in real time?",
+      "Describe a time you built or operated a high-throughput event pipeline."
+    ],
+    "culture_notes": "Twitter/X interviews heavily probe real-time distributed systems knowledge — the timeline, notifications, and trends systems are canonical case studies. Content policy tradeoffs are common product-sense questions.",
+    "avoid_topics": ["Ignoring scale constraints", "Naive feed implementation without considering celebrity accounts (hotspot problem)"]
+  },
+
+  "LinkedIn": {
+    "display_name": "LinkedIn",
+    "emoji": "💼",
+    "preferred_question_types": ["Behavioural", "Technical", "Product"],
+    "rubric_focus": ["Professional network thinking", "Member growth", "Talent ecosystem", "Responsible AI", "Data graph"],
+    "known_frameworks": ["LinkedIn's InFlow culture", "Economic Graph vision", "People You May Know algorithms", "Professional identity"],
+    "question_patterns": [
+      "How would you improve LinkedIn's connection recommendation algorithm?",
+      "Tell me about a time you built a product that helped people grow professionally.",
+      "Design a system to detect fake profiles at LinkedIn's scale.",
+      "How would you measure the success of LinkedIn's Jobs feature?",
+      "Walk me through a time you used data to prioritise a product roadmap."
+    ],
+    "culture_notes": "LinkedIn interviews emphasise network effects, professional empathy, and graph-based thinking. Product questions often centre on the professional ecosystem. Responsible AI and fairness are growing focus areas.",
+    "avoid_topics": ["Consumer social thinking without professional context", "Privacy-invasive solutions for network growth"]
+  },
+
+  "Salesforce": {
+    "display_name": "Salesforce",
+    "emoji": "☁️",
+    "preferred_question_types": ["Behavioural", "Technical", "Customer Success"],
+    "rubric_focus": ["Ohana culture", "Trust as #1 value", "Customer success", "CRM domain depth", "Equality"],
+    "known_frameworks": ["V2MOM (Vision, Values, Methods, Obstacles, Measures)", "Ohana culture", "Trailhead learning", "Salesforce CRM architecture"],
+    "question_patterns": [
+      "Tell me about a time you went above and beyond to ensure customer success.",
+      "Describe how you'd design a multi-tenant SaaS database at Salesforce scale.",
+      "How do you handle a situation where company values conflict with a business goal?",
+      "Walk me through a time you used data to directly improve a customer's outcome.",
+      "Tell me about your experience with CRM systems or enterprise SaaS platforms."
+    ],
+    "culture_notes": "Salesforce's Ohana (family) culture is central. They screen hard for customer obsession and values alignment. The V2MOM framework shapes how teams think. Multi-tenancy architecture knowledge is critical for technical roles.",
+    "avoid_topics": ["Ignoring customer impact in technical decisions", "Individual glory at team expense"]
+  },
+
+  "Goldman Sachs": {
+    "display_name": "Goldman Sachs",
+    "emoji": "🏦",
+    "preferred_question_types": ["Technical", "Quantitative", "Behavioural"],
+    "rubric_focus": ["Commercial acumen", "Integrity and ethics", "Quantitative rigour", "Client focus", "Markets knowledge"],
+    "known_frameworks": ["Business principles (14 principles)", "Strats and quant thinking", "Risk management mindset", "Market microstructure"],
+    "question_patterns": [
+      "Walk me through how you'd price an options contract using Black-Scholes.",
+      "Tell me about a time you identified and mitigated a significant risk.",
+      "How would you design a low-latency trading system?",
+      "Describe the biggest trade-off you've made between speed and accuracy.",
+      "What do you think drives current volatility in equity markets?"
+    ],
+    "culture_notes": "Goldman screens for both technical depth (quant/engineering roles) and market fluency. Integrity and client-first thinking are table stakes. Expect numerical estimation, market commentary, and problem-solving under pressure.",
+    "avoid_topics": ["Lack of market awareness", "Ethically ambiguous answers to integrity scenarios"]
+  },
+
+  "Adobe": {
+    "display_name": "Adobe",
+    "emoji": "🎨",
+    "preferred_question_types": ["Technical", "Design", "Behavioural"],
+    "rubric_focus": ["Creativity", "Check-in culture over reviews", "SaaS subscription thinking", "Content creation ecosystem", "Cross-platform UX"],
+    "known_frameworks": ["Adobe's Check-In performance model", "Creative Cloud ecosystem thinking", "Document cloud strategy", "Subscription business model"],
+    "question_patterns": [
+      "How would you redesign Adobe's onboarding for new Photoshop users?",
+      "Tell me about a time you made a complex technical tool more accessible.",
+      "Design a collaborative real-time editing system at Adobe's scale.",
+      "Describe a time you balanced creative freedom with technical constraints.",
+      "How would you measure the success of a new Creative Cloud feature?"
+    ],
+    "culture_notes": "Adobe values creativity balanced with engineering rigour. The shift from perpetual to subscription (Creative Cloud) informs many product questions. Design sensibility matters even for engineers.",
+    "avoid_topics": ["Pure optimisation with no UX awareness", "Lack of creative tool context"]
+  },
+
+  "Spotify": {
+    "display_name": "Spotify",
+    "emoji": "🎵",
+    "preferred_question_types": ["Technical", "System Design", "Product"],
+    "rubric_focus": ["Audio streaming infrastructure", "Recommendation systems", "Squad/tribe model", "Data-driven product", "Creator economy"],
+    "known_frameworks": ["Spotify Squad Model", "Discovery Weekly algorithm thinking", "Podcast and music ecosystem", "Stream processing at scale"],
+    "question_patterns": [
+      "How would you design Spotify's Discover Weekly recommendation system?",
+      "Walk me through streaming audio to 500M users with low latency.",
+      "Tell me about a time you worked in a self-organising team structure.",
+      "How would you measure the health of Spotify's creator ecosystem?",
+      "Design Spotify's podcast analytics pipeline."
+    ],
+    "culture_notes": "Spotify's autonomous Squad/Tribe model means they prize team ownership and self-direction. Music and audio domain knowledge impresses. Data and ML thinking is embedded in product and engineering roles.",
+    "avoid_topics": ["Hierarchical command-and-control thinking", "Ignoring content creator needs in product design"]
+  },
+
+  "Tesla": {
+    "display_name": "Tesla",
+    "emoji": "⚡",
+    "preferred_question_types": ["Technical", "System Design", "Behavioural"],
+    "rubric_focus": ["First principles thinking", "Manufacturing velocity", "Vertical integration", "Autonomy and safety", "Move fast engineering"],
+    "known_frameworks": ["Elon's First Principles approach", "Vertical integration philosophy", "Hardware-software co-design", "Autopilot/FSD architecture"],
+    "question_patterns": [
+      "How would you approach designing a self-driving decision system for edge cases?",
+      "Tell me about a time you challenged an existing assumption and found a better solution.",
+      "How would you architect the over-the-air update system for Tesla vehicles?",
+      "Describe a time you shipped something mission-critical with no room for error.",
+      "Walk me through designing a battery management system."
+    ],
+    "culture_notes": "Tesla expects first-principles reasoning and the ability to question conventional wisdom. Move-fast culture is real — they respect engineers who can ship at hardware velocity. Autonomy and safety engineering knowledge is a differentiator.",
+    "avoid_topics": ["Incremental thinking without questioning base assumptions", "Risk-averse answers in engineering design"]
+  },
+
+  "ByteDance / TikTok": {
+    "display_name": "ByteDance / TikTok",
+    "emoji": "📱",
+    "preferred_question_types": ["Technical", "System Design", "Product"],
+    "rubric_focus": ["Short video algorithms", "Global scale", "Content recommendation depth", "Creator economy", "Monetisation systems"],
+    "known_frameworks": ["For You Page (FYP) algorithm", "Multi-modal content understanding", "Cross-border product thinking", "A/B testing at scale"],
+    "question_patterns": [
+      "How would you design TikTok's For You Page recommendation algorithm?",
+      "Walk me through detecting and moderating harmful content at 1B+ users.",
+      "Tell me about a time you built a product for a culturally diverse global audience.",
+      "How would you design the live streaming gifting economy?",
+      "Describe a time you improved an engagement metric significantly."
+    ],
+    "culture_notes": "ByteDance moves extremely fast and expects ML/algorithm depth. The FYP recommendation system is a canonical interview topic. Cross-cultural product thinking matters given the global user base.",
+    "avoid_topics": ["Single-market product thinking", "Shallow engagement metric optimisation ignoring safety"]
+  },
+
+  "Flipkart": {
+    "display_name": "Flipkart",
+    "emoji": "🛒",
+    "preferred_question_types": ["Technical", "System Design", "Behavioural"],
+    "rubric_focus": ["E-commerce scale", "Supply chain", "Tier 2/3 India market thinking", "Last-mile delivery", "Vernacular and accessibility"],
+    "known_frameworks": ["Flipkart's Ekart logistics", "Bharat (tier 2/3) customer obsession", "Big Billion Day scale", "Seller ecosystem"],
+    "question_patterns": [
+      "Design Flipkart's inventory management system for Big Billion Days.",
+      "How would you design search that works well for vernacular queries?",
+      "Tell me about a time you scaled a system under extreme load.",
+      "How would you improve last-mile delivery reliability in tier 3 cities?",
+      "Describe a time you built a product for users with very different needs from you."
+    ],
+    "culture_notes": "Flipkart is India-focused with heavy emphasis on understanding the 'Bharat' consumer — users with low bandwidth, entry-level devices, and non-English languages. E-commerce and logistics domain knowledge differentiates candidates.",
+    "avoid_topics": ["Western-centric product assumptions", "Ignoring low-bandwidth or vernacular user needs"]
+  },
+
+  "Infosys": {
+    "display_name": "Infosys",
+    "emoji": "🏢",
+    "preferred_question_types": ["Technical", "Behavioural", "HR"],
+    "rubric_focus": ["Client delivery", "Software engineering fundamentals", "Adaptability", "Learning agility", "Team collaboration"],
+    "known_frameworks": ["Infosys values (C-LIFE)", "Agile delivery", "Client communication", "Global delivery model"],
+    "question_patterns": [
+      "Tell me about a time you had to quickly learn a new technology for a project.",
+      "How do you handle working with clients who have unclear requirements?",
+      "Describe a situation where you had to work across time zones effectively.",
+      "Walk me through your approach to debugging a critical production issue.",
+      "Tell me about a time you contributed to a team beyond your assigned role."
+    ],
+    "culture_notes": "Infosys interviews assess learning agility and client-service orientation. Strong CS fundamentals, communication skills, and adaptability to different client environments are key filters.",
+    "avoid_topics": ["Inflexibility to changing client requirements", "Purely individual contribution stories with no teamwork angle"]
+  },
+
+  "Swiggy / Zomato": {
+    "display_name": "Swiggy / Zomato",
+    "emoji": "🍕",
+    "preferred_question_types": ["Technical", "System Design", "Product"],
+    "rubric_focus": ["Hyperlocal delivery", "Real-time logistics", "Restaurant and user dual-market", "Demand forecasting", "India-first thinking"],
+    "known_frameworks": ["Hyperlocal 30-minute delivery model", "Surge and demand prediction", "Dark stores and quick commerce", "Restaurant partner ecosystem"],
+    "question_patterns": [
+      "Design a real-time order tracking system for food delivery at scale.",
+      "How would you predict demand spikes for restaurants during IPL matches?",
+      "Tell me about a time you built for users in varied connectivity conditions.",
+      "How would you design a fair surge pricing system for delivery partners?",
+      "Walk me through designing Swiggy Instamart's inventory allocation."
+    ],
+    "culture_notes": "Swiggy/Zomato interviews focus on hyperlocal, real-time logistics problems. Quick commerce (10-minute delivery) is a growing question area. India-specific constraints — connectivity, regional food preferences — matter in product thinking.",
+    "avoid_topics": ["Global delivery models without India-specific context", "Ignoring delivery partner economics in system design"]
+  }
+}
