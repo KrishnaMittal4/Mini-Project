@@ -1,4 +1,13 @@
 streamlit
+groq
+python-dotenv
+opencv-python
+numpy
 pandas
 plotly
-numpy
+scikit-learn
+sentence-transformers
+pypdf
+python-docx
+SpeechRecognition
+pyaudio
