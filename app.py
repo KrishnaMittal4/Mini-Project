@@ -14,8 +14,8 @@ Design: Matrix-green / neon-cyan / electric-violet on deep black
 from __future__ import annotations
 
 import os
-from dotenv import load_dotenv
-load_dotenv()
+from secrets_loader import load_secrets
+load_secrets()
 
 import json
 import re
@@ -70,9 +70,8 @@ _RTC_CONFIG = RTCConfiguration({"iceServers": [
 
 from backend_engine        import InterviewEngine, DISC_KEYWORDS, ScoreAggregator
 from dataset_loader        import bytes_to_bgr, pil_to_bgr, EMOTION_LABELS, EMOTION_COLORS
-from speech_to_text        import SpeechToText
 from answer_evaluator      import AnswerEvaluator
-from voice_input           import voice_input_panel
+from voice_input           import SpeechToText, voice_input_panel, audio_waveform
 from unified_voice_pipeline import UnifiedVoicePipeline as NervousnessPipeline
 from resume_rephraser       import page_resume, RESUME_DEFAULTS
 from weekly_prep_plan       import page_weekly_plan, WEEKLY_PLAN_DEFAULTS   # v10.1
